@@ -23,7 +23,7 @@ def logout():
     #st.rerun()
 
 role = st.session_state.role
-logout_page = st.Page(logout, title="Log out", icon=":material/logout:")
+logout_page = st.Page(logout, title="Log out *", icon=":material/logout:")
 settings = st.Page("settings.py", title="Settings", icon=":material/settings:")
 
 visualization = st.Page(
